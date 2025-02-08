@@ -6,7 +6,7 @@
         }
 
         // جلب معرف المستخدم من الرابط (إذا كان موجودًا)
-        var userId = getQueryParam("ref") || "default";
+        var userId = getQueryParam("ref") || "";
 
         // إنشاء رابط الإحالة
         var referralLink = "http://t.me/Blouzairdropbot" + userId;
