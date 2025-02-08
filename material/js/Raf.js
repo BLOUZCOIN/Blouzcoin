@@ -9,7 +9,7 @@
         var userId = getQueryParam("ref") || "default";
 
         // إنشاء رابط الإحالة
-        var referralLink = "https://t.me/Blouzairdropbot?start=" + userId;
+        var referralLink = "http://t.me/Blouzairdropbot/app?startapp=" + userId;
 
         // تحديث قيمة حقل الإدخال
         var linkElement = document.getElementById("link");
